@@ -1,0 +1,384 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.banner{
+    width: 100%;
+    height: 100px;
+}
+.banner-noidung {
+    width: 100%;
+    height: 110px;
+    background: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo-item .far {
+    color: #034272;
+}
+
+.banner-noidung {
+    display: flex;
+}
+
+.banner-noidung img {
+    width: 300px;
+    height: 100px;
+    line-height: 110px;
+}
+
+.logo-item {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 100px;
+    background: 	#E0FFFF;
+    height: 40px;
+    width: auto;
+    width: 820px;
+
+}
+
+.logo-item .icon i .far {
+    vertical-align: middle;
+}
+
+.logo .logo-item {
+    padding: 0px 25px;
+    
+}
+
+.logo-item .icon i {
+    font-size: 40px;
+    color: #034272;
+   
+}
+
+.text-top, .text-bottom {
+    text-transform: uppercase;
+    opacity: 0.7;
+    font-size: 13px;
+
+}
+
+.text-bottom {
+    color: blue;
+    font-weight: bold;
+}
+
+.text-lienhe {
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.text {
+    padding-left: 10px;
+}
+.zalo img{
+    width: 30px;
+    height: 30px;
+}
+
+
+/* phần menu */
+.menu{
+    height:50px ;
+    width: 100%;
+  background-color: #034272;
+  
+
+}
+.menu-item{
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.menu-item li a{
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    border-right: 1px solid white;
+    
+    line-height: 50px;
+    padding: 0px 10px;
+    text-align: center;
+}
+.menu-item li{
+    flex: 1;
+}
+.timkiem{
+    height: 40px;
+    width: 100%;
+    display: flex;
+}
+.menu-item li a:hover{
+    color:yellow ;
+}
+.timkiem input{
+height: 40px;
+}
+.timkiem .dongy{
+    color: white;
+    background: black;
+}
+ .timkiem1{
+  flex: 2;}
+.timkiem2{
+    flex: 1;
+}
+.content{
+    height: 600px;
+    background-color:#034272 ;
+    width: 100%;}
+ .danhmuc-lienhe{
+     height: 600px;
+     width: 100%;
+     display: flex;
+ }   
+ .danhmuc-lienhe .danhmuc{
+     width: 30%;
+     background:#034272 ;
+
+ }
+ .danhmuc-lienhe .lienhe{
+     width: 70%;
+     background-color: white;
+     
+ }
+ .from-dangnhap .hien-he{
+     font-size: 18px;
+ }
+
+ .from-dangnhap{
+    margin-top: 30px;
+    width: 97%;
+    background-color: white;
+    height: 400px;
+   
+
+
+}
+.hoten{
+  
+    display: flex;
+   
+}
+.hoten input{
+    height:30px;
+    width: 650px;
+   
+}
+textarea{
+    width: 650px;
+    height: 100px;
+}
+
+
+.hoten label{
+    width: 150px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+.dang{
+    width: 150px;
+    height: 40px;
+    /* margin:20px 0px;
+    margin-left: 130px;
+    */
+    background: black;
+    border:none;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 12px 15px;
+
+}
+.nhap{
+    margin-left: 150px;
+}
+
+   
+
+.danhmuc h4{
+    height: 30px;
+    text-transform: uppercase;
+    color:white;
+line-height: 30px;
+padding-left: 15px;
+
+}
+.danhmuc li a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: white;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    
+}
+
+.copy-right{
+    height: 40px;
+    width: 100%;
+    background:#034272 ;
+}
+.copy-right marquee{
+    color: white;
+    line-height: 40px;
+
+}
+html{
+    font-family: sans-serif;
+
+}
+.banner{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(6, 75, 27);
+}
+
+.menu{
+    height: 40px;
+    width: 100%;
+    background:#034272 ;
+}
+.menu-item{
+    display: flex;
+   
+
+}
+.menu-item li{
+    list-style: none;
+    border-right: 1px solid white;
+    flex:1;
+    
+
+}
+.menu-item li a{
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+    padding: 0px 8px;
+    text-align: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: white;
+
+}
+.buttons{
+    width: 100%;
+    height: 35px;
+    background-color:#034272; 
+}
+.buttons-item{
+    display: flex;
+    width: 100%;
+    height: 34px; 
+   
+}
+.item1{
+    flex: 2;
+    margin: 2px 3px;
+    
+}
+.item2{
+    flex: 1;
+    margin: 2px 3px;
+}
+.content{
+  
+    height: auto;
+    box-sizing: border-box;
+}
+.content-item{
+    display: flex;
+}
+
+
+.contact{
+   width: 70%;
+   flex: 2;
+  background-color: white;
+    line-height: 50px;
+}
+.content h3{
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.product ul li{
+    list-style: none;
+
+}
+.product{
+    background-color:#034272; 
+    width: 30%;
+
+}
+.product ul li a{
+text-transform: uppercase;
+text-decoration: none;
+font-size: 14px;
+color: white;
+line-height: 30px;
+padding-left: 15px;
+}
+ .contact-item input[type="text"],textarea
+{
+    width: 700px;
+    height: 40px;
+}
+
+.contact {
+    padding-left: 30px;
+}
+.contact-item{
+  
+    display: flex;
+}
+.contact-item label{
+    min-width: 150px;
+  
+}
+textarea{
+    height: 70px;
+}
+
+ .nut{
+ color: white;
+ background: #034272;
+    width: 100px;
+    height: 40px;
+    margin: 12px 20px;
+    border-radius: 3px ;
+    border:none;
+    cursor: pointer;
+ 
+    
+}
+.sent-composer{
+   margin-left: 130px;
+} 
+.footer{
+    height: 40px;
+    width: 100%;
+    background:#034272 ;
+}
+marquee{
+    font-style: italic;
+    color: white;
+    line-height: 40px;
+
+}
